@@ -1,0 +1,316 @@
+/* font */
+
+@font-face {
+    font-family: CodaCaption-ExtraBold;
+    src: url(../fonts/CodaCaption-ExtraBold.ttf);
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: CodaCaption-ExtraBold;
+}
+
+/* body */
+body {
+    margin: 0;
+}
+
+.uni-padding {
+    padding: 0 7%;
+}
+
+/* topbar */
+#topbar {
+    background: #576574;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    overflow: auto;
+}
+
+#tollfree {
+    float: left;
+    color: #fdfdfd;
+    margin: 0px;
+    margin-top: 5px;
+}
+
+#social-icon {
+    float: right;
+    padding: 0px 20px;
+}
+
+.fa-brands {
+    background: #fdfdfd;
+    color: #576574;
+    padding: 7px;
+    border-radius: 50%;
+}
+
+.fa-facebook-f {
+    padding: 7px 10px;
+}
+
+.fa-whatsapp {
+    padding: 7px 8px;
+}
+
+.fa-instagram {
+    padding: 7px 8px;
+}
+
+/* logobar */
+
+#logobar img {
+    width: 150px;
+    height: 50px;
+    margin: 25px 0px;
+}
+
+/* nav bar */
+
+#navbar {
+    background: #ee5253;
+}
+
+#navbar ul li{
+    display: inline-block;
+    padding: 20px 0px;
+    padding-right: 20px;
+}
+
+#navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#navbar ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#poster {
+    background-image: url(../images/banner.jpg);
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+#poster h1 {
+    font-size: 50px;
+}
+
+#poster p {
+    font-size: 18px;
+    text-align: center;
+}
+
+
+
+/* why us */
+
+#whysection {
+    overflow: auto;
+    margin: 50px;
+}
+
+.red-heading {
+    color: #ee5253;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 50px;
+}
+
+.section33 {
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    /* padding: 0px 50px 0px 50px; */
+    padding: 42px;
+    box-sizing: border-box;
+}
+
+.section33 h2 {
+    color: #ee5253;
+}
+
+.section33 p {
+    color: #363636;
+}
+
+/* contact */
+
+#contact-container {
+    background: #ee5253;
+    color: white;
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#section70 {
+    width: 70%;
+    float: left;
+}
+
+#section30 {
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding-top: 60px;
+}
+
+#contact-button {
+    background: white;
+    color: #ee5253;
+    padding: 15px 50px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* blog */
+.section33 img {
+    max-width: 100%;
+}
+
+.section33 a {
+    color: #ee5253;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: CodaCaption-ExtraBold;
+    font-size: 16px;
+}
+
+
+/* subscribe */
+
+#subscribe-section {
+    background: #ee5253;
+    color: white;
+    overflow: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.section50 {
+    width: 50%;
+    float: left;
+    overflow: auto;
+}
+
+.section50 h2 {
+    font-size: 27px;
+}
+
+.section50 form {
+    padding: 30px;
+}
+
+.section50 input[type="text"] {
+    padding: 10px 15px;
+    font-size: 15px;
+    color: #ee5253;
+    margin-right: 30px;
+    border: none;
+    width: 50%;
+}
+
+.section50 input[type="submit"] {
+    padding: 8px 35px;
+    font-size: 15px;
+    color: #ee5253;
+    border: none;
+}
+
+
+/* footer */
+
+#imp-link {
+    background: #576574;
+    color: white;
+    overflow: auto;
+}
+
+.div33 {
+    width: 33.33%;
+    float: left;
+    /* padding: 25px 50px; */
+    box-sizing: border-box;
+}
+
+.div33 h3 {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+    font-weight: normal;
+}
+
+#footer-menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+#footer-menu li {
+    padding: 10px;
+}
+
+#footer-menu li a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer-menu-container {
+    padding-left: 100px;
+}
+
+#copyright {
+    background: #222f3e;
+    text-align: center;
+    color: #cbcbcb;
+    padding: 10px;
+}
+
+
+
+/* .main{
+    background: linear-gradient(90deg, rgb(224, 64, 64), rgb(248, 244, 244));
+    width: 500px;
+    height: 500px;
+} */
+
+
+
+
+
+/* ipad Air */
+
+/* @media only screen and (max-width:820px){
+    #navbar ul li a{
+        font-size: 21px;
+    }
+    .section50 input[type="text"] {
+        margin-left: -40px;
+    }
+    .div33 h3 {
+        text-underline-offset: 5px;
+    } 
+    .div33 {
+        padding: 0px 30px;
+    }
+} */
